@@ -19,7 +19,8 @@
 }
 body {
     font-family: Roboto, sans-serif;
-    color: var(--main-text-color); 
+    color: var(--main-text-color);
+    background-color: var(--background-team-card); 
 }
 /* reset styles in the list*/
 .list {
@@ -33,7 +34,7 @@ body {
 }
 /* logo header*/
 .logo-text-first {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -42,7 +43,7 @@ body {
         color: var(--logo-text-color);
 }
 .logo-text-second {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -64,6 +65,7 @@ body {
 }
 /* nav address in header*/
 .address-nav-link {
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -83,6 +85,7 @@ body {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: var(--hero-text-color);
 }
 .hero-button {
@@ -92,6 +95,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        cursor: pointer;
         color: var(--button-text-color);
 }
 .hero-button:hover,
@@ -120,6 +124,7 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
         color: var(--title-text-color);
 }
 /*  section Team*/
@@ -129,6 +134,7 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
         color: var(--title-text-color);
 }
 .team-sect {
@@ -145,8 +151,8 @@ body {
         color: var(--title-text-color);
 }
 .team-nav-position {
-    font-size: 20px;
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.02em;
 }
 /*  footer*/
@@ -154,7 +160,7 @@ body {
     background-color: var(--background-footer-color);
 }
 .footer-text-second {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -179,6 +185,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         border: transparent;
+        cursor: pointer;
         color: var(--button-main-color);
 }
 .filter-btn-text:hover,
