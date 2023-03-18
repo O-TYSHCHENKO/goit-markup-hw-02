@@ -64,8 +64,10 @@ body {
         color: var(--title-text-color);
 }
 /* nav address in header*/
-.address-nav-link {
+.address-header {
         font-style: normal;
+}
+.address-nav-link {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -205,8 +207,8 @@ background-color: var(--button-hover-color);
         color: var(--title-text-color);
 }
 .work-type-text {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--title-text-color);
+        color: var(--main-text-color);
 }
